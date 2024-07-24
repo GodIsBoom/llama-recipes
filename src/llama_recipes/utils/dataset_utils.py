@@ -12,6 +12,7 @@ from llama_recipes.datasets import (
     get_alpaca_dataset,
     get_samsum_dataset,
     get_llamaguard_toxicchat_dataset,
+    get_traj_dataset,
 )
 
 
@@ -56,6 +57,7 @@ DATASET_PREPROC = {
     "samsum_dataset": get_samsum_dataset,
     "custom_dataset": get_custom_dataset,
     "llamaguard_toxicchat_dataset": get_llamaguard_toxicchat_dataset,
+    "traj_dataset": partial(get_traj_dataset),
 
 }
 

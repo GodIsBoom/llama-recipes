@@ -38,3 +38,10 @@ class llamaguard_toxicchat_dataset:
     dataset: str = "llamaguard_toxicchat_dataset"
     train_split: str = "train"
     test_split: str = "test"
+
+@dataclass
+class traj_dataset:
+    dataset: str = "traj_dataset"
+    train_split: str = "train"
+    test_split: str = "val"
+    data_path: str = "/home/gxk/mycv/data/traj_class.json"
