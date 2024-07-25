@@ -1,0 +1,6 @@
+Analyze the characteristics of this trajectory:
+start_time is 2008-11-06, end_time is 2008-11-07, distance_sum is 225 meters, time_sum is 334 seconds, mean_speed is 1 meters per second, max_speed is 2 meters per second.
+What type of vehicle produced this trajectory?
+Choose one of the following type of vehicle:
+Car, Bike, Walk, Train
+Give a type of vehicle: 
